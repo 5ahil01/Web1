@@ -1,0 +1,27 @@
+1. Modifying Element Properties:
+    - **`element.textContent`**: Sets or retrieves the text content of an element.
+    - **`element.innerHTML`**: Sets or retrieves the HTML content of an element.
+    - **`element.setAttribute('attribute', 'value')`**: Sets the value of the specified attribute.
+    - **`element.style.property = 'value'`**: Modifies the CSS style properties of an element.
+2. Manipulating Element Structure:
+    - **`document.createElement('tag')`**: Creates a new element with the specified tag.
+    - **`element.appendChild(child)`**: Appends a child element to another element.
+    - **`element.removeChild(child)`**: Removes a child element from its parent.
+    - **`element.replaceChild(newChild, oldChild)`**: Replaces an existing child element with a new one.
+        1. Selecting Elements:
+            - **`document.getElementById('id')`**: Selects an element with the specified ID.
+            - **`document.querySelector('selector')`**: Selects the first element that matches the CSS selector.
+            - **`document.querySelectorAll('selector')`**: Selects all elements that match the CSS selector.
+    - **`element.cloneNode(deep)`**: Creates a copy of an element, optionally including its descendants.
+3. Handling Events:
+    - **`element.addEventListener('event', callback)`**: Attaches an event listener to an element.
+    - **`element.removeEventListener('event', callback)`**: Removes an event listener from an element.
+4. Traversing the DOM:
+    - **`element.parentNode`**: Accesses the parent element.
+    - **`element.childNodes`**: Retrieves a collection of child nodes.
+    - **`element.firstChild`** and **`element.lastChild`**: Access the first and last child nodes, respectively.
+    - **`element.previousSibling`** and **`element.nextSibling`**: Access the previous and next sibling nodes, respectively.
+5. Modifying CSS Classes:
+    - **`element.classList.add('class')`**: Adds a CSS class to an element.
+    - **`element.classList.remove('class')`**: Removes a CSS class from an element.
+    - **`element.classList.toggle('class')`**: Toggles the presence of a CSS class on an element.
